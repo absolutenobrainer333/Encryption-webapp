@@ -14,7 +14,7 @@ const Decrypt = () => {
 
     try {
       // Make API call to Django backend
-      const response = await axios.post("http://localhost:8000/decrypt", {
+      const response = await axios.post("http://localhost:8000/FernetDecrypt", {
         key: passphrase,
         data: encryptedText,
       });
