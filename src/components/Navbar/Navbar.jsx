@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={toggleMobileMenu}
           className="md:hidden text-white"
         >
-          <i className="fas fa-bars"></i> {/* You can use any icon here */}
+          <i className="fas fa-bars"></i> 
         </button>
 
         {/* Mobile menu */}
