@@ -33,12 +33,10 @@ const Encrypt = () => {
 
   const copyPassphraseToClipboard = () => {
     navigator.clipboard.writeText(passphrase);
-    alert("Passphrase copied to clipboard");
   };
 
   const copyEncryptedValueToClipboard = () => {
     navigator.clipboard.writeText(encryptedValue);
-    alert("Encrypted value copied to clipboard");
   };
 
   return (
